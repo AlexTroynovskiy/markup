@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $dark-color;
+  line-height: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 5px;
+
+  &:hover {
+    color: $succes-color;
+    cursor: pointer;
+  }
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-link {
+  display: flex;
+  align-self: center;
+}

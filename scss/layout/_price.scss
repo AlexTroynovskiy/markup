@@ -1,0 +1,26 @@
+.price {
+  padding-top: 105px;
+}
+.price-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 52px;
+  margin: -5px;
+}
+.price-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 25%;
+  }
+}
+.price-cards {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}

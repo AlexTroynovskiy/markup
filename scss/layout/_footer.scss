@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 70px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 2px solid $secondary-color;
+}
+
+.location-link {
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 24px;
+  color: $secondary-color;
+  margin-bottom: 51px;
+
+  &:hover {
+    color: $succes-color;
+  }
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials-btn {
+  color: $secondary-color;
+
+  &:hover {
+    color: $facebook-color;
+  }
+}
+
+.socials {
+  display: flex;
+}
+
+.socials-twiter {
+  margin-right: 25px;
+  margin-left: 25px;
+}
